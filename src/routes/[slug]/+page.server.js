@@ -1,5 +1,6 @@
 import { error } from "@sveltejs/kit";
 import { routeList } from "$lib/routeList";
+import { BYPASS_TOKEN } from "$env/static/private";
 
 export async function load({ params }) {
   // Find pages by params.slug
@@ -22,6 +23,6 @@ export async function load({ params }) {
 export const config = {
   isr: {
     expiration: false,
-    bypassToken: "abc123abcdabc123abcdabc123abcdABabbc123abcdABab",
+    bypassToken: BYPASS_TOKEN,
   },
 };
