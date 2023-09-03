@@ -18,3 +18,5 @@ export async function load({ params }) {
     page,
   };
 }
+
+export const prerender = true;
