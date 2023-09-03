@@ -1,5 +1,6 @@
 import { e as error } from "../../../chunks/index.js";
 import { r as routeList } from "../../../chunks/routeList.js";
+const BYPASS_TOKEN = "AbcdE12345AbcdE12345AbcdE12345AbcdE12345";
 async function load({ params }) {
   const page = routeList.find((page2) => page2.slug === params.slug);
   if (!page)
@@ -16,7 +17,7 @@ async function load({ params }) {
 const config = {
   isr: {
     expiration: false,
-    bypassToken: "abc123"
+    bypassToken: BYPASS_TOKEN
   }
 };
 export {

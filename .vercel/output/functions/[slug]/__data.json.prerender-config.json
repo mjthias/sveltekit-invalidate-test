@@ -1,6 +1,6 @@
 {
 	"expiration": false,
-	"bypassToken": "abc123",
+	"bypassToken": "AbcdE12345AbcdE12345AbcdE12345AbcdE12345",
 	"allowQuery": [
 		"__pathname"
 	],
