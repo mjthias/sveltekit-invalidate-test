@@ -22,6 +22,6 @@ export async function load({ params }) {
 export const config = {
   isr: {
     expiration: false,
-    bypassToken: "abc123abcdabc123abcdabc123abcdABab",
+    bypassToken: "abc123abcdabc123abcdabc123abcdABabbc123abcdABab",
   },
 };
