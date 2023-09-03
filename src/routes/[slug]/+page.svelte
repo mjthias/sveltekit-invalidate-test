@@ -14,3 +14,14 @@
 <img src={imageUrl} alt="A cute dog, {title}" />
 
 <button on:click={revalidate}>Revalidate</button>
+
+<style>
+  img {
+    display: block;
+    width: 500px;
+    height: auto;
+  }
+  button {
+    display: block;
+  }
+</style>
