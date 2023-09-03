@@ -1,0 +1,9 @@
+{
+	"expiration": false,
+	"bypassToken": "abc123",
+	"allowQuery": [
+		"__pathname"
+	],
+	"group": 1,
+	"passQuery": true
+}
